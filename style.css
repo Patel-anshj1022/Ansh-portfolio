@@ -55,3 +55,113 @@ body {
   gap: 1rem;
 }
 
+.hi-i-am {
+  margin: 0;
+}
+
+.hi-i-am-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 90%;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.a-kenya-based {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+}
+
+.a-passion-based {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: sans-serif;
+  color: #c7c7c7;
+}
+
+.header-and-sub-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.title {
+  position: relative;
+  font-size: 16px;
+  line-height: 100%;
+  color: #0a0a0a;
+  text-align: left;
+}
+
+.circle-icon {
+  width: 42px;
+  position: relative;
+  height: 42px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.button8 {
+  cursor: pointer;
+  border: none;
+  padding: 20px 6px 20px 24px;
+  background-color: #d3e97a;
+  height: 54px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.title1 {
+  position: relative;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.line {
+  height: 2px;
+  position: relative;
+  border-top: 2px solid #d3e97a;
+  box-sizing: border-box;
+}
+
+.title-parent {
+  height: 20px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+
+.linkedin {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  overflow: hidden;
+  margin-left: -10px;
+  top: -12px;
+}
+
+.linkedin2 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+  margin-left: -15px;
+  top: -22px;
+}
+
