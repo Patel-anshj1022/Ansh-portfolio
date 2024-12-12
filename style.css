@@ -365,3 +365,472 @@ body {
   justify-content: flex-start;
 }
 
+.description {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+}
+
+.title-and-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.title3 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.topic {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.value {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: #c7c7c7;
+}
+
+.client {
+  align-self: stretch;
+  border-top: 1px solid #484848;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0 16px;
+  gap: 20px;
+}
+
+.topic1 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 34px;
+}
+
+.value1 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  color: #c7c7c7;
+}
+
+.year {
+  align-self: stretch;
+  border-top: 1px solid #484848;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0 16px;
+  gap: 20px;
+}
+
+.topic2 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 35px;
+}
+
+.list {
+  align-self: stretch;
+  border-bottom: 1px solid #484848;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.project-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 16px;
+}
+
+.information {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+.title4 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 84px;
+  color: #d3e97a;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 11px;
+  padding-bottom: 8px;
+}
+.title4:hover {
+  color: #b8cc5e;
+}
+.title-and-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.underline {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid #d3e97a;
+  box-sizing: border-box;
+}
+
+.view-project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  gap: 4px;
+}
+
+.title5 {
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 120px;
+  color: #d3e97a;
+}
+.title5:hover {
+  color: #b8cc5e;
+}
+
+.view-project1 {
+  height: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  box-sizing: border-box;
+  gap: 4px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 16px;
+  color: #d3e97a;
+}
+
+.project-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.card-content {
+  width: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 60px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 32px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+  font-size: 14px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+  max-width: 100%;
+}
+
+.projects-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: 76px;
+}
+
+.image-10-icon {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  border-radius: 20px;
+  width: 500px;
+  height: 347px;
+  object-fit: cover;
+}
+
+.project-image {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  min-width: 390px;
+  max-width: 100%;
+}
+
+.title6 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.description1 {
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  color: #c7c7c7;
+  white-space: pre-wrap;
+  left: -80px;
+}
+
+.topic3 {
+  position: relative;
+  line-height: 160%;
+  font-weight: 500;
+}
+
+.title8 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 116px;
+  color: #d3e97a;
+}
+.title8:hover {
+  color: #b8cc5e;
+}
+.view-project2 {
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  box-sizing: border-box;
+  gap: 4px;
+  font-size: 16px;
+  color: #d3e97a;
+}
+
+.card-content-container {
+  width: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 54.5px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.card-container {
+  width: 1224px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  max-width: 100%;
+}
+
+.project-card-two {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: 32px;
+}
+
+.challenge-label {
+  border-radius: 100px;
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 15px 8px 16px;
+}
+
+.image-9-icon {
+  height: 306px;
+  flex: 1;
+  position: relative;
+  border-radius: 12px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.image-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.project-image1 {
+  flex: 1;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 16px 147px;
+  box-sizing: border-box;
+  gap: 94px;
+  min-width: 390px;
+  max-width: 100%;
+}
+
+.third-card-content {
+  width: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 96px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 32px;
+}
+
+.third-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  max-width: 100%;
+}
+
+.project-card-three {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 50px;
+  box-sizing: border-box;
+  gap: 80px;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 101px;
+  color: #fff;
+}
+
+.home-child {
+  width: calc(100% + 1px);
+  height: 1px;
+  position: absolute;
+  margin: 0;
+  right: -1px;
+  bottom: 745px;
+  left: 0;
+  border-top: 1px solid #484848;
+  box-sizing: border-box;
+}
+
+.separator {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid #484848;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.separator-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 92px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
