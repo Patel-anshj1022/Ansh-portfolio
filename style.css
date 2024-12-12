@@ -330,3 +330,39 @@ body {
   left: -10px;
 }
 
+.card-image-container {
+  width: 527px;
+  height: 347px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 41px;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 600px;
+  width: 600px;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 16px 127px;
+  box-sizing: border-box;
+  gap: 73px;
+}
+
+.project-card {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
