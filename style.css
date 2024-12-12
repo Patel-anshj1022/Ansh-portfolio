@@ -231,6 +231,7 @@ body {
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
+  z-index: 1;
 }
 
 .image {
@@ -638,7 +639,7 @@ body {
   line-height: 150%;
   color: #c7c7c7;
   white-space: pre-wrap;
-  left: -80px;
+  left: -0px;
 }
 
 .topic3 {
