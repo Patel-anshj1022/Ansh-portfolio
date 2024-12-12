@@ -234,3 +234,17 @@ body {
   z-index: 1;
 }
 
+.image {
+  flex: 1;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 37px 0 0;
+  box-sizing: border-box;
+  min-width: 390px;
+  max-width: 100%;
+}
+
+.
