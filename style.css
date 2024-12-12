@@ -1181,3 +1181,289 @@ body {
   letter-spacing: normal;
 }
 
+@media screen and (max-width: 1200px) {
+  .project-card {
+    flex: 1;
+  }
+
+  .card-content {
+    flex: 1;
+  }
+
+  .projects-grid {
+    flex-wrap: wrap;
+  }
+
+  .frame-parent {
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+
+  .about-content {
+    flex: 1;
+  }
+
+  .about-header {
+    flex-wrap: wrap;
+  }
+
+  .content-wrapper {
+    gap: 194px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hi-i-am-container {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .main-content {
+    flex: 1;
+  }
+
+  .content-container {
+    flex-wrap: wrap;
+  }
+
+  .featured-projects {
+    font-size: 61px;
+    line-height: 61px;
+  }
+
+  .title6 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .card-content-container {
+    flex: 1;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+  }
+
+  .third-card-content {
+    flex: 1;
+  }
+
+  .third-card-container {
+    flex-wrap: wrap;
+  }
+
+  .frame-parent {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .about-me {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .i-am-a {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .about-content {
+    min-width: 100%;
+  }
+
+  .lets-connect {
+    font-size: 61px;
+    line-height: 61px;
+  }
+
+  .contact-columns {
+    min-height: auto;
+  }
+
+  .contact-columns-parent {
+    flex-wrap: wrap;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navigation {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+
+  .navigation1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+
+  .hero-content {
+    gap: 20px;
+  }
+
+  .main-content {
+    padding-top: 104px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .image {
+    min-width: 100%;
+  }
+
+  .content-container {
+    gap: 40px;
+  }
+
+  .project-card {
+    min-width: 100%;
+  }
+
+  .information {
+    gap: 16px;
+  }
+
+  .project-content {
+    gap: 24px;
+  }
+
+  .card-content {
+    padding-top: 39px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .projects-grid {
+    gap: 24px;
+  }
+
+  .projects-container {
+    gap: 40px;
+  }
+
+  .project-image {
+    min-width: 100%;
+  }
+
+  .card-content-container {
+    padding-top: 35px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .card-container {
+    gap: 24px;
+  }
+
+  .project-image1 {
+    gap: 47px;
+    padding-top: 20px;
+    padding-bottom: 96px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .third-card-content {
+    padding-top: 62px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .third-card-container {
+    gap: 24px;
+  }
+
+  .frame-parent {
+    gap: 40px;
+  }
+
+  .about-content {
+    gap: 26px;
+  }
+
+  .contact-column {
+    gap: 20px;
+  }
+
+  .contact-columns {
+    min-width: 100%;
+  }
+
+  .frame-group {
+    gap: 20px;
+  }
+
+  .contact-columns1 {
+    gap: 24px;
+    min-width: 100%;
+  }
+
+  .content-wrapper {
+    gap: 97px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hi-i-am-container {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .content-container {
+    gap: 20px;
+  }
+
+  .featured-projects {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  .projects-container {
+    gap: 20px;
+  }
+
+  .title6 {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .project-image1 {
+    gap: 23px;
+  }
+
+  .frame-parent {
+    gap: 20px;
+  }
+
+  .about-me {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .i-am-a {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .lets-connect {
+    font-size: 46px;
+    line-height: 46px;
+  }
+
+  .contact-columns-parent {
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+
+  .content-wrapper {
+    gap: 49px;
+  }
+}
+.title13{
+  color:#d3e97a;
+}
