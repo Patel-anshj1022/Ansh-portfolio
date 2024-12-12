@@ -892,3 +892,97 @@ body {
   gap: 20px;
 }
 
+.lets-connect {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 100%;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.mail {
+  position: relative;
+  line-height: 150%;
+}
+
+.email-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  color:  #d3e97a
+}
+
+.info-item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+}
+
+.location-separator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #d3e97a;
+  box-sizing: border-box;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0;
+  color:  #d3e97a
+}
+
+.info-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 18px;
+  color: #c7c7c7;
+}
+
+.bxl-instagramsvg-icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 1;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.contact-column {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.
