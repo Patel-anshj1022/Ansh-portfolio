@@ -834,3 +834,61 @@ body {
   max-width: 100%;
 }
 
+.about-me {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 90%;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.i-am-a {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.title13 {
+  position: relative;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.skill-highlight {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2px;
+  box-sizing: border-box;
+  gap: 4px;
+  font-size: 16px;
+  color: #d3e97a;
+}
+
+.about-content {
+  width: 704px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 53px;
+  max-width: 100%;
+  font-size: 32px;
+}
+
+.about-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+
