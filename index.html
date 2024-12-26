@@ -310,34 +310,39 @@
           <div class="Ansh-Patel3">© 2024 Ansh Patel</div>
         </div>
         <div class="contact-columns1">
-          <div class="frame-group">
-            <div class="experience-item-parent">
-              <div class="header-and-sub-header">
-                <div class="description6">Name</div>
-                <input class="name-placeholder" placeholder="Your Name" type="text" />
-              </div>
-              <div class="header-and-sub-header">
-                <div class="description7">Email</div>
-                <input class="name-placeholder" placeholder="Your email" type="text" />
-              </div>
-              <div class="header-and-sub-header">
-                <div class="topic3">Subject</div>
-                <input class="name-placeholder" placeholder="Talk to me" type="text" />
-              </div>
-              <div class="education-item">
-                <div class="topic3">Message</div>
-                <div class="degree-placeholder">
-                  <div class="text">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <button class="button9">
-              <b class="title">Submit</b>
-            </button>
-          </div>
+ <form id="contactForm" onsubmit="return validateForm(event)">
+    <div class="frame-group">
+      <div class="experience-item-parent">
+        <div class="header-and-sub-header">
+          <div class="description6">Name</div>
+          <input class="name-placeholder" id="name" placeholder="Your Name" type="text" required onchange="saveFormData()"/>
+          <span class="error" id="nameError"></span>
+        </div>
+        <div class="header-and-sub-header">
+          <div class="description7">Email</div>
+          <input class="name-placeholder" id="email" placeholder="Your email" type="email" required onchange="saveFormData()"/>
+          <span class="error" id="emailError"></span>
+        </div>
+        <div class="header-and-sub-header">
+          <div class="topic3">Subject</div>
+          <input class="name-placeholder" id="subject" placeholder="Talk to me" type="text" required onchange="saveFormData()"/>
+          <span class="error" id="subjectError"></span>
+        </div>
+        <div class="education-item">
+          <div class="topic3">Message</div>
+          <textarea class="degree-placeholder" id="message" placeholder="Your message" required onchange="saveFormData()"></textarea>
+          <span class="error" id="messageError"></span>
         </div>
       </div>
+      <button class="button9" type="submit">
+        <b class="title">Submit</b>
+      </button>
+    </div>
+</form>
+</div>
+</div>
+  </div>
+  </div>
     </div>
   </section>
   </div>
