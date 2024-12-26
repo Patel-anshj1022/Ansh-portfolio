@@ -1014,7 +1014,7 @@ body {
 }
 
 .name-placeholder {
-  width: 100%;
+  width: 600px;
   border: none;
   outline: none;
   background-color: #1a1a1a;
@@ -1066,7 +1066,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 12px 16px;
+  padding: 12px 20px;
   font-size: 18px;
   color: #fff;
 }
@@ -1502,4 +1502,16 @@ body {
     display: block;
     padding: 10px;
   }
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+.degree-placeholder {
+  min-height: 100px;
+  width: 100%;
+  padding: 8px;
 }
