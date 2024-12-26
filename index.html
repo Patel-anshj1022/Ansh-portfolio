@@ -5,19 +5,27 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, width=device-width" />
   <link rel="stylesheet" href="style.css">
+  <script src="menu.js"></script>
   <title>Ansh's Portfolio</title>
 </head>
 
 <body>
   <nav class="navbar">
     <a href="index.html" h1 class="logo">ANSH PATEL</h1></a>
-    <div class="nav-links">
-      <a href="index.html">Work</a>
-      <a href="about.html">About</a>
-      <a href="contact">Contact</a>
-      <div class="dropdown">
-      </div>
-    </div>
+    <div class="nav-links" id="nav-links">
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span> 
+    <span></span>
+  </div>
+  <div class="menu-items">
+    <a href="index.html">Work</a>
+    <a href="about.html">About</a>
+    <a href="contact">Contact</a>
+  </div>
+  <div class="dropdown">
+  </div>
+</div>
   </nav>
   <section class="frame-parent">
     <div class="content-container-wrapper">
@@ -333,5 +341,6 @@
     </div>
   </section>
   </div>
+  <script src="menu.js"></script>
 </body>
 </html>
